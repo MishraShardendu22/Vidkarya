@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Page-1" id="r9cs2UvgUWaEHflRgWNe">
-    <mxGraphModel dx="1481" dy="2571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="2559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,10 +141,16 @@
           <mxGeometry x="910" y="-1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WZ_zsEBXoUyCOogCr5SI-27" value="Admin and Sub Admin will follow factory design pattern.&lt;div&gt;Basically one schema and role for the admins and sub-admins.&lt;/div&gt;&lt;div&gt;Super Admin can create as many as they want.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-1610" width="380" height="80" as="geometry" />
+          <mxGeometry x="-850" y="-1560" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WZ_zsEBXoUyCOogCr5SI-28" value="Logs will follow singelton design pattern.&lt;div&gt;Basically means that only one single schema and instance and that will get updated every time so there are proper logs and updates of what happened.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-1480" width="380" height="80" as="geometry" />
+          <mxGeometry x="-850" y="-1440" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WZ_zsEBXoUyCOogCr5SI-29" value="All the routes will be protected by Auth middleware.&lt;div&gt;And only people allowed will be able to access pages and there data.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-1320" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WZ_zsEBXoUyCOogCr5SI-30" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;User - {&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; all_old_data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;roles: [ super_admin ,admin ,sub_admin ,user ]&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pages_allowed : [ hackathons ,jobs ,internships ,events&amp;nbsp; etc...&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs - {&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;userId&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;updateDetails&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-990" width="480" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
