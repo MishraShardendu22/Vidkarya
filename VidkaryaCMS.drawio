@@ -150,7 +150,7 @@
           <mxGeometry x="-850" y="-1320" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WZ_zsEBXoUyCOogCr5SI-30" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;User - {&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; all_old_data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;roles: [ super_admin ,admin ,sub_admin ,user ]&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pages_allowed : [ hackathons ,jobs ,internships ,events&amp;nbsp; etc...&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs - {&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;userId&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;updateDetails&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-990" width="480" height="180" as="geometry" />
+          <mxGeometry x="-850" y="-990" width="370" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
